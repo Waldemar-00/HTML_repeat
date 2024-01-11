@@ -4,14 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Favorite places</title>
-    <link rel="icon" href="UM.svg" type="image/svg" />
+    <link rel="icon" href="favicon.ico" type="image/svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <style></style>
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 75%;
+        margin: auto
+      }
+    </style>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -48,43 +66,40 @@
       </div>
     </nav>
     <section class="container my-5">
-      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-lg-5 g-md-3 g-1">
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-lg-5 g-md-3 g-3">
         <div class="col">
           <div class="card" >
-            <img src="my_cat_little.JPEG" class="card-img-top" alt="..." />
+            <img src="https://picsum.photos/id/19/200" class="card-img-top" alt="tree" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Forest card</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum natus beatae quam quaerat aperiam sit consequuntur reprehenderit adipisci debitis eligendi!
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="https://picsum.photos/id/19/700" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Large photo</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="my_cat_little.JPEG" class="card-img-top" alt="..." />
+            <img src="https://picsum.photos/id/12/200" class="card-img-top" alt="ocean" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Ocean card</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea dignissimos impedit ducimus dolorum facere. Aperiam, a fuga? Quia, sed doloremque!
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="https://picsum.photos/id/12/700" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Large photo</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="my_cat_little.JPEG" class="card-img-top" alt="..." />
+            <img src="https://picsum.photos/id/17/200" class="card-img-top" alt="garden" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Garden card</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum, veritatis saepe deserunt ipsum non. Dolor ullam facilis perspiciatis quod.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="https://picsum.photos/id/17/700" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Large photo</a>
             </div>
           </div>
       </div>
